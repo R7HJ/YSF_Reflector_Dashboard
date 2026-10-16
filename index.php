@@ -82,7 +82,7 @@ $time = $time[1] + $time[0];
 $finish = $time;
 $total_time = round(($finish - $start), 4);
 echo '<!--Page generated in '.$total_time.' seconds.-->';	
-?> | Based on <a href="https://github.com/dg9vh/YSFReflector-Dashboard" target="_blank">DG9VH YSFReflector-Dashboard</a> | <a href="https://github.com/R7HJ/YSF_Reflector_Dashboard">modification by r7hj</a>
+?> | Based on <a href="https://github.com/dg9vh/YSFReflector-Dashboard" target="_blank">DG9VH</a> | <a href="https://github.com/R7HJ/YSF_Reflector_Dashboard">modification by r7hj</a>
 	</div>
   </body>
 </html>
