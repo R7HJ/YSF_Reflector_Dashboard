@@ -4,3 +4,10 @@ PHP 8.4.26,<br>
 lighttpd 1.4.79
 
 Больше спасибо за эту разработку [DG9VH](https://github.com/dg9vh/YSFReflector-Dashboard) и модификации от [KDØIOE](https://git.kd0ioe.com/alynch/ReflectorDashboard)!
+
+#Описание
+
+Файлы php (у меня) лежат в директории `/var/www/html/ysf2`
+
+Файл конфигурации находится в `/etc/YSFReflector2.ini`
+
