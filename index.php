@@ -75,14 +75,14 @@ include "include/gateways.php";
 <?php
 $lastReload = new DateTime();
 $lastReload->setTimezone(new DateTimeZone(TIMEZONE));
-echo "YSFReflector Dashboard v".VERSION." | Last Reload ".$lastReload->format('Y-m-d, H:i:s')." (".TIMEZONE.")";
+echo "Dashboard v".VERSION." | Last Reload ".$lastReload->format('Y-m-d, H:i:s')." (".TIMEZONE.")";
 $time = microtime();
 $time = explode(' ', $time);
 $time = $time[1] + $time[0];
 $finish = $time;
 $total_time = round(($finish - $start), 4);
 echo '<!--Page generated in '.$total_time.' seconds.-->';	
-?> | Based on <a href="https://github.com/dg9vh/YSFReflector-Dashboard" target="_blank">DG9VH YSFReflector-Dashboard</a> | <a href="https://git.kd0ioe.com/alynch/ReflectorDashboard">Source</a>
+?> | Based on <a href="https://github.com/dg9vh/YSFReflector-Dashboard" target="_blank">DG9VH YSFReflector-Dashboard</a> | <a href="https://github.com/R7HJ/YSF_Reflector_Dashboard">modification by r7hj</a>
 	</div>
   </body>
 </html>
