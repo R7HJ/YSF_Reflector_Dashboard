@@ -20,7 +20,7 @@ lighttpd 1.4.79
 sudo chown -R www-data:www-data /var/www/html
 sudo chmod -R 775 /var/www/html
 ```
-для настройки lighttpd измените запись:
+для настройки lighttpd проверьте и измените запись:
 
 ```
 sudo mcedit /etc/systemd/system/lighttpd.service.d/override.conf
