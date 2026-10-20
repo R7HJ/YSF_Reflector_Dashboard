@@ -20,6 +20,14 @@ lighttpd 1.4.79
 sudo chown -R www-data:www-data /var/www/html
 sudo chmod -R 775 /var/www/html
 ```
+для настройки lighttpd измените запись:
+
+```
+sudo mcedit /etc/systemd/system/lighttpd.service.d/override.conf
+
+[Service]
+PrivateTmp=no
+```
 
 Другая особенность моей сборки, в том что все библиотеки и шрифты лежат в `/var/www/html/ysf2/assets/` мне так удобно, потому что YSF рефлектор работает изолированно, без подключения к глобальной сети.
 
